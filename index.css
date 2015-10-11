@@ -1,0 +1,133 @@
+header {
+  height: 600px;
+  overflow: hidden;
+ position: relative;
+ width: 100%;
+
+}
+
+
+.big:after {
+ content: ' ';
+ display: block;
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.6;
+ background-image: url('/Users/anthonylong/desktop/coding/surfreport/wave.jpg');
+ background-repeat: no-repeat;
+ background-position: 50% 0;
+ background-size: cover;
+}
+
+.blog {
+float: left;
+padding-left: 10%;
+}
+
+.nav-list {
+  text-align: right;
+  margin: 2%;
+  list-style: none;
+  float: right;
+
+}
+
+header li  {
+  display: inline-block;
+  padding-right: 15px;
+
+}
+
+header h1 {
+  padding-top: 20%;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 0;
+
+}
+
+header h5 {
+  text-align: center;
+  margin-top: 0;
+
+}
+.headline {
+  width: 100%;
+  margin: 80px;
+
+
+}
+
+.headline h1  {
+  text-align: left;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #210E97;
+  margin-bottom: 0;
+
+}
+
+.headline img {
+  width: 20px;
+	height: 20px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.woah h2  {
+  color: #210E97;
+}
+
+.blue img {
+  opacity: 0.7;
+}
+.blue   {
+  display: inline-block;
+  background-color: blue;
+  border-radius: 150px;
+}
+
+.small  {
+  font-size: 10px;
+  margin-top: 0;
+  height: 10px;
+
+
+}
+.lowerheading  {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #210E97
+
+
+}
+aside {
+  display: inline-block;
+  width: 0%;
+
+}
+
+.headline section {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.small img  {
+  vertical-align: top;
+}
+
+.share li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  border-style: solid;
+
+}
